@@ -40,7 +40,7 @@ let new_val4 = Number(score)
 
 let value1 = "ff"
 let bool_val = Boolean(value1)
-console.log(bool_val);
+// console.log(bool_val);
 
 // "" > False, "gfhj" -> True
 // 0 - False, 1 - true
@@ -48,5 +48,42 @@ console.log(bool_val);
 
 number_1 = 7
 let str_num = Number(number_1)
-console.log(str_num, typeof str_num);
+// console.log(str_num, typeof str_num);
+
+//////////////////////// operators /////////////////////////////////
+
+num1 = 4
+let neg_num = -num1
+// console.log(neg_num)
+
+
+// console.log(2 + 2)
+// console.log(2 - 8)
+// console.log(2 * 2)
+// console.log(2 / 2)
+// console.log(5 ** 2)
+// console.log(8 % 3)
+
+
+// console.log("2" + 2)
+// console.log("2" ** 2)
+
+
+
+console.log(true)
+console.log(+true)
+console.log(-true)
+console.log(+false)
+console.log(-false)
+
+
+
+console.log(1 + 1 +"2")
+console.log("1" + 1 +"2")
+let a = 6
+
+console.log(++a)
+
+let b = 2
+console.log(b++);
 
